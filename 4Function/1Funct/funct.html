@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="funct.js"></script>
+</head>
+<body>
+<p id="d1">a</p>
+<p id="d2">result is</p>
+<p>My Name is [<span id="d3"></span>]</p>
+<p>The highest number is <span id="d4"></span></p>
+
+<p id="d5">5</p>
+<p id="d6">6</p>
+<p id="d7">7</p>
+<p id="d8">8</p>
+<p id="d9">9</p>
+<p id="d10">10</p>
+
+
+
+<script>
+
+function myFun(p1,p2){
+return (p1*p2);
+}
+let x = myFun(2,2);
+document.getElementById('d1').innerHTML= x;
+
+</script>
+
+<button onclick="myFun1()">click1</button>
+<button onclick="span()">Span</button>
+<button onclick="myFun2()">click2</button>
+
+
+</body>
+</html>
