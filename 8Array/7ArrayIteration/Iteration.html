@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="Iteration.js"></script>
+</head>
+<body>
+  
+<p id="d1">1</p>
+<p id="d2">2</p>
+<p id="d3">3</p>
+<p id="d4">4</p>
+<p id="d5">5</p>
+<p id="d6">6</p>
+<p id="d7">7</p>
+<p id="d8">8</p>
+<p id="d9">9</p>
+<p id="d10">10</p>
+
+<p id="d11">1</p>
+<p id="d12">2</p>
+<p id="d13">3</p>
+<p id="d14">4</p>
+<p id="d15">5</p>
+<p id="d16">6</p>
+
+<script>
+  const numbers = [45, 4, 9, 16, 25];
+
+let txt='';
+numbers.forEach(iteration)
+document.getElementById('d1').innerHTML=txt;
+
+function iteration(value){
+
+  txt += value + '<br>';
+
+}
+</script>
+
+  <button onclick="value()">value</button>
+  <button onclick="index()">index</button>
+  <button onclick="map()">maping</button>
+  <button onclick="flatMap()">flatMaping</button>
+  <button onclick="filter()">filter</button>
+  <button onclick="reduce()">total</button>
+  <button onclick="every()">every_p/f</button>
+  <button onclick="some()">some_p/f</button>
+  <button onclick="find()">find</button>
+  <button onclick="findIndex()">findIndex</button>
+  <button onclick="arrayFrom()">array</button>
+  <button onclick="keys()">keys</button>
+  <button onclick="entries()">entries</button>
+  <button onclick="includes()">includes</button>
+  <button onclick="spread()">...</button>
+  <button onclick="sets()">sets</button>
+  <button onclick="sets2()">sets2</button>
+</body>
+</html>
