@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="event.js"></script>
+</head>
+<body>
+  <p id="d1"></p>
+  <p id="d2"></p>
+  <p id="d3"></p>
+  <p id="d4"></p>
+  <p id="d5"></p>
 
+  <button onclick="document.getElementById('d1').innerHTML=Date()">click1</button><br>
+  <button onclick="this.innerHTML=Date()">click2</button><br>
+  <button onclick="displayDate()">click3</button>   //not worked<br> 
+
+
+  
+Event	       Description
+onchange    :An HTML element has been changed
+onclick	    :The user clicks an HTML element
+onmouseover :	The user moves the mouse over an HTML element
+onmouseout	:The user moves the mouse away from an HTML element
+onkeydown	  :The user pushes a keyboard key
+onload	    :The browser has finished loading the page
+  
+</body>
+</html>
